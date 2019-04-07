@@ -1,0 +1,1 @@
+export { default as TabBarIOS } from './src/components/TabBarIOS/TabBarIOS.ios.js';
