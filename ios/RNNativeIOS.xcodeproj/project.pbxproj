@@ -15,8 +15,6 @@
 		90318CF5225ABEA900DC9591 /* RCTTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 90318CEA225ABEA800DC9591 /* RCTTabBarItem.m */; };
 		90318CF6225ABEA900DC9591 /* RCTTabBarItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90318CEC225ABEA900DC9591 /* RCTTabBarItemManager.m */; };
 		90318CF7225ABEA900DC9591 /* RCTTabBarItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90318CEC225ABEA900DC9591 /* RCTTabBarItemManager.m */; };
-		9086DF8B225AAFE500A68884 /* RNNativeIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNNativeIOS.m */; };
-		B3E7B58A1CC2AC0600A0062D /* RNNativeIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNNativeIOS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,8 +49,6 @@
 		90318CEE225ABEA900DC9591 /* RCTTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTTabBarItem.h; path = ../src/components/TabBarIOS/RCTTabBarItem.h; sourceTree = "<group>"; };
 		90318CEF225ABEA900DC9591 /* RCTTabBarItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTTabBarItemManager.h; path = ../src/components/TabBarIOS/RCTTabBarItemManager.h; sourceTree = "<group>"; };
 		9086DF82225AAFC600A68884 /* libRNNativeIOS+tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRNNativeIOS+tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNNativeIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNativeIOS.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNNativeIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNativeIOS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				90318CE7225ABE9100DC9591 /* TabBarIOS */,
-				B3E7B5881CC2AC0600A0062D /* RNNativeIOS.h */,
-				B3E7B5891CC2AC0600A0062D /* RNNativeIOS.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				9086DF82225AAFC600A68884 /* libRNNativeIOS+tvOS.a */,
 			);
@@ -188,7 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				90318CF2225ABEA900DC9591 /* RCTTabBarManager.m in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* RNNativeIOS.m in Sources */,
 				90318CF4225ABEA900DC9591 /* RCTTabBarItem.m in Sources */,
 				90318CF0225ABEA900DC9591 /* RCTTabBar.m in Sources */,
 				90318CF6225ABEA900DC9591 /* RCTTabBarItemManager.m in Sources */,
@@ -200,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				90318CF3225ABEA900DC9591 /* RCTTabBarManager.m in Sources */,
-				9086DF8B225AAFE500A68884 /* RNNativeIOS.m in Sources */,
 				90318CF5225ABEA900DC9591 /* RCTTabBarItem.m in Sources */,
 				90318CF1225ABEA900DC9591 /* RCTTabBar.m in Sources */,
 				90318CF7225ABEA900DC9591 /* RCTTabBarItemManager.m in Sources */,
