@@ -102,8 +102,6 @@ import type {ImageSource} from 'ImageSource';
   hasBeenSelected: boolean,	
 |};	
 
- let showedDeprecationWarning = false;	
-
  class TabBarItemIOS extends React.Component<Props, State> {	
   state = {	
     hasBeenSelected: false,	
@@ -118,17 +116,6 @@ import type {ImageSource} from 'ImageSource';
    UNSAFE_componentWillReceiveProps(nextProps: Props) {	
     if (this.state.hasBeenSelected || nextProps.selected) {	
       this.setState({hasBeenSelected: true});	
-    }	
-  }	
-
-   componentDidMount() {	
-    if (!showedDeprecationWarning) {	
-      console.warn(	
-        'TabBarIOS and TabBarItemIOS are deprecated and will be removed in a future release. ' +	
-          'Please use react-native-tab-view instead.',	
-      );	
-
-       showedDeprecationWarning = true;	
     }	
   }	
 
